@@ -5,3 +5,12 @@
   color: #ddffff!important;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.container{
+  margin-top: 5%;
+  text-align: center;
+  height:100vh;
+  border-radius: 5px;
+}
+#message-output{
+  color: green;
+}
