@@ -1,15 +1,16 @@
 {
-  "name": "webpack-config",
+  "name": "web-guru",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic react app with Webpack and babel",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Justin Ndwiga",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-transform-react-jsx": "^7.3.0",
