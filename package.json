@@ -4,9 +4,10 @@
   "description": "A basic react app with Webpack and babel",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "postinstall": "webpack -p",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Justin Ndwiga",
@@ -27,6 +28,7 @@
   },
   "dependencies": {
     "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "express": "^4.16.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1"
