@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+/* eslint-disable import/no-self-import, import/no-unresolved */
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './views/Home';
 import Navbar from './views/Navbar';
@@ -17,6 +18,6 @@ export default class App extends Component {
           <Route path="/about" component={About} />
         </div>
       </Router>
-    )
+    );
   }
 }

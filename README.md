@@ -3,7 +3,7 @@ Live on [https://web-guru.herokuapp.com](https://web-guru.herokuapp.com)
 
 ### `Test the App` 
 - `$ npm install` - Install the dependencies
-- `$ npm run dev` - Start the app
+- `$ npm run server` - Start the app
 
 Runs the app in the development mode.<br>Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 

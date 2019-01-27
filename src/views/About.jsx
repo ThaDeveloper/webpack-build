@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-const  About = () => {
+const About = () => {
   return (
     <div className="container">
-       <h2>About Web Guru</h2>
-       <p>This is a functional component</p>
+       <h2 className="jumbotron">About Web Guru</h2>
+       <p>This is a functional component (no pun intended) </p>
     </div>
-  )
-}
+  );
+};
 
 export default About;
